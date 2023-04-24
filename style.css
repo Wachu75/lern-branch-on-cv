@@ -1,11 +1,11 @@
 body {
-  background: #e7ecf3;
+  background: #a5b9ec;
   font-family: "Montserrat", sans-serif;
 }
 .wrapper {
   display: flex;
   flex-direction: row-reverse;
-  width: 800px;
+  width: 1000px;
   justify-content: center;
   margin: auto;
   position: absolute;
@@ -13,12 +13,13 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
 
-  background: #e8edee;
+  background: #e5f1f4;
   box-shadow: 16px 16px 20px rgba(0, 0, 0, 0.5);
 }
 aside {
   width: 370px;
   background: #1e2939;
+  margin-left: 20px;
 }
 .cv-photo {
   margin-top: 25px;
@@ -26,9 +27,9 @@ aside {
 .div-secondary {
   margin-left: 40px;
   margin-top: 51px;
+  margin-bottom: 51px;
 }
 .header-secondary {
-  text-align: center;
   color: #ffffff;
   font-weight: 700;
   margin-top: 40px;
@@ -52,4 +53,45 @@ aside p {
 }
 aside p a {
   color: rgba(255, 255, 255, 0.5);
+}
+main {
+  width: auto;
+  padding-left: 60px;
+  padding-top: 40px;
+
+  padding-right: 50px;
+}
+.list-primary {
+  padding: 0px;
+  list-style: inside;
+}
+.list-primary li a {
+  text-decoration-line: none;
+
+}
+div.div-a {
+  display: inline-block;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  color: rgb(0, 0, 0);
+}
+main div h3 {
+  font-weight: 400;
+  font-size: 14px;
+}
+.h2-primary {
+  color: #ff5f24;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 17px;
+  margin-top: 42px;
+}
+.main-description {
+  width: 400px;
+}
+h1 {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 55px;
 }
